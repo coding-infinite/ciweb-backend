@@ -1,14 +1,16 @@
 {
-  "name": "ciweb-backend",
+  "name": "ciweb-ai",
   "version": "1.0.0",
-  "type": "module",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5",
-    "cors": "^2.8.5"
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.5"
   }
 }
